@@ -6,7 +6,7 @@ from requests.utils import requote_uri
 from pyrogram import Client, filters
 from pyrogram.types import *
 
-API = "https://api.abirhasan.wtf/google?query="
+API = "https://animehindisub.com/?s="
 
 
 Bot = Client(
@@ -22,12 +22,12 @@ I am a google search bot.
 
 > `I can search from google. Use me in inline.`
 
-Made by @FayasNoushad"""
+Made by @asta_est"""
 
 JOIN_BUTTON = [
     InlineKeyboardButton(
         text='⚙ Join Updates Channel ⚙',
-        url='https://telegram.me/FayasNoushad'
+        url='https://telegram.me/estanimes'
     )
 ]
 
